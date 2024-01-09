@@ -1,0 +1,160 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    
+}
+.header__text{
+    color: gray;
+}
+.header__text:hover{
+    color: black;
+}
+.header__btn{
+    background-color: orange;
+    border-radius: 5px;
+    border: 0px ;
+    padding: 10px 20px;
+    color: white;
+}
+.container{
+   width: 80%;
+   margin: 0 auto;
+}
+
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.grow__box-title{
+font-size: 80px;
+}
+.grow__box-text{
+    color: gray;
+}
+.grow__box-btn{
+    background-color: blue;
+    border-radius: 5px;
+    border: 0px ;
+    padding: 20px 30px;
+    color: white;
+}
+.grow__wrapper{
+    display: flex;
+    gap: 100px;
+}
+.logo__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.index__link{
+    text-decoration: none;
+    color: gray;
+}
+.index__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.depth__title{
+    font-size: 50px;
+}
+.depth__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.bench__title{
+    font-size: 30px;
+}
+.bench__picture{
+    text-align: center;
+}
+.bench__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.bench{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.index{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.logo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.grow{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.plan__title{
+    font-size: 60px;
+}
+.plan__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.plan__btn-blue{
+    padding: 15px 50px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+}
+.plan__btn-white{
+    padding: 15px 50px;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: 130px;
+    border: 0px;
+    
+}
+.card__btn{
+    padding: 15px 50px;
+    margin-bottom: 20px;
+}
+.card__free{
+    border: 1px solid gray;
+    width: 300px;
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+}
+.card__premium{
+    border: 1px solid gray;
+    width: 300px;
+    text-align: center;
+    background-color:orange;
+    border-radius: 15px;
+}
+.cards__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.premium__title{
+    font-size: 50px;
+}
+.card__premium{
+    color: white;
+}
+.premium__btn{
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    border-radius: 15px ;
+    background-color: darkred;
+    color: white;
+}
+.btn4:hover{
+    background-color: blue;
+}
+.btn3:hover{
+    background-color: orange;
+}
+.btn:hover{
+    background-color: darkred;
+    color: white;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
