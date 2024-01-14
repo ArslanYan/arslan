@@ -158,3 +158,54 @@ font-size: 80px;
     background-color: white;
     color: black;
 }
+/* @media(max-width:1000px){
+    img{
+        width: 200px;
+    }
+    h1{
+        font-size:5px;
+    }
+    section{
+        margin-top: 0px;
+        margin-bottom: 0px  ;
+
+    }
+} */
+@media(max-width:320px){
+    header{
+        flex-direction: column;
+
+    }
+    .header__text{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .grow{
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100px;
+    }
+    .logo__last{
+        margin-right: 10px;
+    }
+    .card__premium{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .plan__btn-blue{
+        width: 50px;
+    }
+    .index__title{
+        font-size: 30px;
+    }
+    .grow__box-title{
+        font-size: 30px;
+    }
+    .grow__img{
+        width: 300px;
+    }
+}
