@@ -1,0 +1,154 @@
+body{
+    font-family: "Montserrat", sans-serif;
+
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    background-image: url(./img/hero-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__wrapper {
+    display: flex;
+}
+.header__box {
+    
+}
+span{
+    font-family: "Montserrat", sans-serif;
+}
+.header__btn {
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+background: none;
+padding: 10px 20px;
+border-radius: 20px;
+}
+.btn-main {
+    border-radius: 20px;
+border: 0.5px solid var(--color-orange, #FC6652);
+}
+.btn {
+    border: none;
+}
+.header{
+    background-image: url(./hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__btns {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+.hero__btn {
+    padding: 20px 50px;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+background-color: #FC6652;
+border-radius: 100px;
+text-align: center;
+
+}
+.button {
+    background: none;
+    border: 1px solid white;
+}
+.hero__title{
+    span{
+        color: #FC6652;
+    }
+
+color: white;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 131.25% */
+margin-top: 100px;
+}
+.hero__text{
+    color: #B4B4B4;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+}
+.hero__btn-text{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #B6B6B6;
+}
+.hero__btn{
+    img{
+        margin-left: 10px;
+    }
+}
+.img{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero__wrapper{
+    display: flex;
+}
+.talent__title{
+    span{
+        color: var(--color-orange, #FC6652);
+font-family: Raleway;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 72px;
+text-transform: uppercase;
+    }
+    
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 112.5% */
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.talent__text{
+    color: var(--color-light-grey, #555);
+
+/* desk / h2 */
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 131.25% */
+
+margin-top: 100px;
+}
