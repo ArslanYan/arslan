@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <button class="btn btn1">Leonardo </button>
+                <button class="btn btn2">Michelangelo </button>
+                <button class="btn btn3">Raphael </button>
+                <button class="btn btn4">Donatello </button>
+
+
+<div class="photo"></div>
+                <!-- <div class="photo"><img src="./leo.jpg" alt="" ></div> -->
+                <!-- <div class="photo"><img src="./raph.jpg" alt="" ></div>
+                <div class="photo"><img src="./micky.jpg.crdownload" alt="" ></div>
+                <div class="photo"><img src="./don.jpg" alt=""></div> -->
+            </div>
+        </div>
+    </header>
+
+
+
+<script>
+    const btn1 = document.querySelector('btn1')
+    const btn2 = document.querySelector('btn2')
+    const btn3 = document.querySelector('btn3')
+    const btn4 = document.querySelector('btn4')
+    const photo = document.querySelector('.photo')
+
+    btn1.addEventListener('click', () => {
+        photo.classList.toggle('leo')
+    })
+
+    btn2.addEventListener('click', () => {
+        photo.classList.toggle('micky')
+    })
+</script>
+
+
+</body>
+</html>

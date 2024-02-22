@@ -1,0 +1,22 @@
+.btn{
+    padding: 15px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+    color: black;
+    border-radius: 15px;
+}
+
+.leo{
+    background-image: url(./leo.jpg);
+    display: block;
+}
+.photo{
+    width: 800px;
+    height: 800px;border: 2px;
+    display: none;
+}
+
+.micky{
+    background-image: url();
+}
