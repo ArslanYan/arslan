@@ -1,0 +1,41 @@
+.btn{
+    padding: 15px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+    color: black;
+    border-radius: 15px;
+}
+
+.photo{
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    display: none;
+    margin-top: 20px;
+}
+
+.leo{
+    background-image: url(./leo.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.micky{
+    background-image: url(./micky.webp);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.raph{
+    background-image: url(./raph.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.don{
+    background-image: url(./Don.webp);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
