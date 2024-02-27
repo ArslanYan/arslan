@@ -1,0 +1,56 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-image: url(https://abbos29.github.io/beats/img/header/Background.png);
+}
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero__wrapper{
+    display: flex;
+    color: white;
+}
+.hero__title{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero__text{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+    
+}
+.box__text{
+    padding: 50px;
+}
+.hero__const{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.hero__btn{
+    width: 200px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+
+
+    span{
+        color: red;
+        font-size: 20px;
+    }
+}
