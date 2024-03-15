@@ -17,9 +17,9 @@ btn2.addEventListener('click', () => {
 })
 
 btn3.addEventListener('click', () => {
-    photo.classList.add('open')
+    photo.classList.add('openphoto')
 })
 
 btn4.addEventListener('click', () => {
-    photo.classList.remove('open')
+    photo.classList.remove('openphoto')
 })

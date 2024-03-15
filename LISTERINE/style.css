@@ -25,6 +25,8 @@ background: linear-gradient(90deg, rgba(2,0,38,1) 0%, rgba(9,52,90,1) 48%, rgba(
     box-shadow: 0px 10px 24px 11px rgba(8,14,101,0.75);
 -webkit-box-shadow: 0px 10px 24px 11px rgba(8,14,101,0.75);
 -moz-box-shadow: 0px 10px 24px 11px rgba(8,14,101,0.75);
+
+
 }
 .card__img{
     width: 300px;
@@ -236,10 +238,6 @@ background: linear-gradient(90deg, rgba(12,9,57,1) 0%, rgba(12,65,8,1) 49%, rgba
     border-radius:0 15px 15px 0 ;
 }
 
-.open{
-    left: 0;
-    
-}
 
 .photo{
 }
@@ -253,15 +251,30 @@ background: linear-gradient(90deg, rgba(12,9,57,1) 0%, rgba(12,65,8,1) 49%, rgba
 .history__text-span{
     
     
-        font-family: "Italianno", cursive;
-        font-weight: 400;
-        font-style: normal;
-      
-      
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+    
 }
 
 
 
+.open{
+    left: 510px;
+    
+    
+}
+
+.openphoto{
+
+}
+.photo{
+    background-image: url(./javaphoto.jpg);
+    position: relative;
+    left: -100%;
+
+}
 
 
 
@@ -310,4 +323,61 @@ button {
   button span:not(hover) {
     transition: all 1s;
   }
+
+  .continue__title{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+  }
+
+  .box__btn{
+    display: flex;
+    justify-content: center;
+  }
   
+  /* .openphoto{
+    background-image: url(./javaphoto.jpg);
+    position: relative;
+    left: 0;
+    width: 500px;
+  } */
+
+
+  
+ 
+
+  @media (max-width:500px) {
+
+  }
+
+  @media (max-width:500px) {
+   .header__input{
+    left: 50px;
+    width: 300px;
+   } 
+   .input__btn{
+    width: 50px;
+   }
+   body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:darkcyan
+   }
+   .cards__wrapper{
+    flex-direction: column;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr  ;
+    gap: 20px;
+   }
+   .header__title{
+    font-size: 100px;   
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-right: 300px;
+   }
+  }
