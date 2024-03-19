@@ -1,7 +1,5 @@
 body{
     font-family: 'Bebas Neue', sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
     background: rgb(2,0,38);
 background: linear-gradient(90deg, rgba(2,0,38,1) 0%, rgba(9,52,90,1) 48%, rgba(11,72,85,1) 100%);
 }
@@ -221,7 +219,7 @@ background: linear-gradient(90deg, rgba(12,9,57,1) 0%, rgba(12,65,8,1) 49%, rgba
     border-radius: 15px;
     margin-top: 50px;
     position: relative;
-    left: -50%;
+    left: -100%;
     transition: all 1s;
     margin-bottom: 50px;
     
@@ -371,7 +369,7 @@ button {
    body{
     background-size: cover;
     background-repeat: no-repeat;
-    background-color:darkcyan
+    
    }
    .cards__wrapper{
     flex-direction: column;
@@ -391,13 +389,15 @@ button {
    }
 
    .new__img{
-    width: 200px;
+    width: 300px;
    }
    h1{
     font-size: 20px;
+    color: white;
    }
    p{
     font-size: 20px;
+    color: white;
    }
    .open{
     width: 50px;
@@ -410,7 +410,44 @@ button {
     width: 50px;
     margin-left: 50px;
    }
-   .box__btn{
-    flex-direction: column;
+   .new__box-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
    }
+   .box__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-right: 100px;
+   }
+   .cards__wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   }
+   header{
+    text-align: center;
+   }
+   .container{
+    text-align: center;
+   }
+   .history__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .continue__title{
+    font-size: 60px;
+   }
+   .header__title{
+    text-align: center;
+   }
+   .header__wrapper{
+    padding-left: 50px;
+    
+   }
+
   }
