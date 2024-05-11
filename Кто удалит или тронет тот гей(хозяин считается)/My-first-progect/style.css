@@ -1,0 +1,41 @@
+.container{
+  max-width: 1280px;
+  width:100% ;
+  margin:0 auto; 
+  padding: 0 90px;
+}
+*{
+  margin: 0; 
+  padding: 0;
+  text-decoration:none ;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+   font-family: "Inter", sans-serif;
+}
+
+.header{
+  width: 1280px;
+  height: 80px;
+}
+
+.farmer{
+  margin-left: 90px;
+  margin-top: 18px;
+}
+
+
+
+.products{
+  margin-left: 158px;
+  margin-top: -45px;
+}
+
+.Buy{
+  width: 260px;
+  height: 60px;
+cursor: pointer;
+}
+
+
