@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(195,147,34);
+    background: linear-gradient(0deg, rgba(195,147,34,1) 0%, rgba(201,63,2,1) 50%, rgba(253,45,45,1) 100%);
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    
+}
+.marvel__title{
+    padding: 30px 0;
+}
+.nav__img{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1400px;
+    margin: 0 auto;
+
+}
+.nav__title{
+    position: relative;
+    font-size: 70px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.btns__box-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.nav_box-img{
+    width: 200px;
+}
+.info_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info__title{
+    font-family: cursive;
+    font-size: 49px;
+    padding: 30px 0;
+}
+.info__text{
+    color: black;
+    font-size: 20px;
+}
+.marvel__box-img{
+   
+}
+.marvel__img{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.travis__img{
+    margin: 0 auto;
+    display: block;
+}
+.marvel__box-text{
+    text-align: center;
+
+}
+.marvel__box-img{
+   
+    /* margin-left: 350px;
+    margin-bottom: 20px;     */
+    margin: 0 auto;
+    display: block;
+}
+.marvel__title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 49px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.travis__box-img{
+    /* margin-left: 100px;
+    margin-top: 20px; */
+    margin: 0 auto;
+    display: block;
+}
+.plot__text{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+.open{
+    width: 50px;
+   
+    position: relative;
+    left: 0;
+   }
+.menu{
+    position: relative;
+    left: -100%;
+}
+img{
+    /* box-shadow: -5px 14px 22px 1px rgba(244,0,0,0.75);
+-webkit-box-shadow: -5px 14px 22px 1px rgba(244,0,0,0.75);
+-moz-box-shadow: -5px 14px 22px 1px rgba(244,0,0,0.75); */
+}
+.seaseons__links{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+}
+.links__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.top__images{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    font-family: cursive;
+}
+
+.skin__box{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.omega{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    display: block;
+}
+.deadpool{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    display: block;
+}
+.travisscott{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    display: block;
+
+}
+.top__box{
+    /* margin-left: 400px; */
+    margin: 0 auto;
+    display: block;
+}
+
+.contacts {
+    width: 100%;
+    height: 250px;
+    background-color: chocolate;
+    margin-top: 50px;
+}
+
+.contacts__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.contacts__box{
+}
+.fortnite__logo{
+    width: 150px;
+}
+.text2{
+    margin-top: 10px;
+}
+.btn__burger{
+    background: none;
+    border: none;
+    overflow: none;
+}
+
+
+
+
+.modal {
+    position: fixed;    
+    width: 100%;
+    height: 100dvh;
+    background-color: red;
+    /* From https://css.glass */
+    background: rgba(255, 0, 0, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid rgba(255, 0, 0, 1);
+    top: 0;
+    transition: all 0.4s;
+    right: -100%;
+}
+.modal__text{
+    font-size: 30px;
+    font-family: cursive;
+}
+.midas{
+    margin: 0 auto;
+    display: block;
+
+}
+.raider{
+    margin: 0 auto;
+    display: block;
+}
+.open-menu {
+    /* display: block; */
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    
+    
+    #close-button {
+        
+        width: 30px;
+        border: none;
+        height: 30px;
+        font-size: 30px;
+        color: #000;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: none;
+        
+    }
+
+}
+    @media (max-width:500px) {
+        .btns__box-nav{
+            flex-direction: column;
+            padding: 30px;  
+        }
+        .nav__img{
+            width: 500px;
+        }
+        nav{
+            padding: 30px;
+        }
+         .info_wrapper{
+            flex-direction: column;
+            margin: 0 auto;
+            display: block; 
+            padding: 30px;
+         }
+         .info__box-img{
+            width: 500px;
+         }
+         .info__img{
+            width: 500px;
+         }
+         .travis__img{
+            width: 500px;
+         }
+         .contacts{
+            height: 0;
+         }
+    }
