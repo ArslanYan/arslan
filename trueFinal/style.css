@@ -95,6 +95,12 @@ hr{
     font-size: 49px;
     margin-bottom: 20px;
 }
+.epic__img-box{
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
 p{
     font-size: 20px;
     text-align: center;
@@ -141,6 +147,14 @@ img{
     width: 200px;
     margin: 0 auto;
     display: block;
+}
+.map{
+   width: 100%;
+}
+.map__wrapper{
+    
+    justify-content: center;
+    align-items: center;
 }
 p{
     font-family: cursive;
@@ -222,6 +236,7 @@ p{
     top: 0;
     transition: all 0.4s;
     right: -100%;
+    z-index: 3;
 }
 .modal__text{
     font-size: 30px;
@@ -284,6 +299,9 @@ p{
         }
         nav{
             padding: 30px;
+        }
+        .map{
+            width: 285px;
         }
          .info_wrapper{
             flex-direction: column;
