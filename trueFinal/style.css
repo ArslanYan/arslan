@@ -259,10 +259,22 @@ p{
     @media (max-width:500px) {
         .btns__box-nav{
             flex-direction: column;
-            padding: 30px;  
+             
+        }
+        .nav__title{
+           font-size: 50px;
+        }
+        h1{
+            font-size: 50px;
         }
         .nav__img{
-            width: 500px;
+            width: 285px;
+        }
+        .info__title{
+            text-align: center;
+        }
+        .info__img{
+            width: 285px;
         }
         nav{
             padding: 30px;
@@ -274,15 +286,21 @@ p{
             padding: 30px;
          }
          .info__box-img{
-            width: 500px;
+            width: 285px;
          }
-         .info__img{
-            width: 500px;
-         }
+         
          .travis__img{
-            width: 500px;
+            width: 285px;
          }
-         .contacts{
+         .fortnite__logo{
+            margin: 0 auto;
+            display: block;
+         }
+         .contacts__wrapper {
             height: 0;
+            flex-direction: column;
+         }
+         section{
+            margin: 0;
          }
     }
