@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -17,24 +19,26 @@
                     </div>
                     <div class="burger__menu">
                         <button class="btn__burger" id="burger-menu" onclick="burgerMenu">
-                            <img width="200px" src="./menu.png" alt="">
+                            <img  width="200px" src="./menu.png" alt="">
                         </button>
                     </div>
 
                     <div class="modal" id="modal">
                         <button id="close-button">X</button>
                         <p class="modal__text">About</p>
-                        <p class="modal__text">About</p>
-                        <p class="modal__text">About</p>
-                        <p class="modal__text">About</p>
-                        <p class="modal__text">About</p>
+                        <p class="modal__text">Home</p>
+                        <p class="modal__text">Contacts</p>
+                        <p class="modal__text">Portfolio</p>
+                        <p class="modal__text">Info</p>
                     </div>
                     
                 </div>
-                <img class="nav__img" src="https://cdn2.unrealengine.com/fortnite-wrecked-battle-pass-1920x1080-261ffa9f76ef.jpg" alt="">
+                <img  data-aos="fade-up"
+                data-aos-anchor-placement="top-center" class="nav__img" src="https://cdn2.unrealengine.com/fortnite-wrecked-battle-pass-1920x1080-261ffa9f76ef.jpg" alt="">
             </div>
         </div>
     </nav>
+    <!-- <hr class="nigga"> -->
 
 
     <section class="info">
@@ -46,10 +50,13 @@
             </div>
 
             <div class="info__box-img">
-                <img class="info__img" src="./fortnite og foto.webp" alt="">
+                <img data-aos="fade-up"
+                data-aos-anchor-placement="top-center" class="info__img" src="./fortnite og foto.webp" alt="">
             </div>
         </div>
     </section>
+
+    <!-- <hr class="nigga"> -->
 
 
     <section class="marvel">
@@ -57,7 +64,8 @@
             <div class="marvel_wrapper">
                 <h1 class="marvel__title">Успешные Колаборации <br> FORTNITE</h1>
                 <div class="marvel__box-img">
-                    <img class="marvel__img" src="https://avatars.dzeninfra.ru/get-zen_doc/1658683/pub_5f9800ffb2613332b014f2e8_5f98010cb2613332b01510ad/scale_1200" alt="">
+                    <img data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" class="marvel__img" src="https://avatars.dzeninfra.ru/get-zen_doc/1658683/pub_5f9800ffb2613332b014f2e8_5f98010cb2613332b01510ad/scale_1200" alt="">
                 </div>
 
                 <div class="marvel__box-text">
@@ -66,6 +74,8 @@
             </div>
         </div>
     </section>
+
+    <!-- <hr class="nigga"> -->
 
 
     <section class="travis">
@@ -77,11 +87,14 @@
 
                 </div>
                 <div class="travis__box-img">
-                    <img class="travis__img" src="https://photobooth.cdn.sports.ru/preset/news/5/a4/9ac9f549b4d35896ebf038992a4c0.jpeg" alt="">
+                    <img data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" class="travis__img" src="https://photobooth.cdn.sports.ru/preset/news/5/a4/9ac9f549b4d35896ebf038992a4c0.jpeg" alt="">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- <hr> -->
 
     <section class="plot">
         <div class="container">
@@ -89,10 +102,12 @@
                 <h1 class="marvel__title">
                      Сюжет <br> FORTNITE
                 </h1>
-                <p class="plot__text"> Да как не странно но в мгре фортнайт которая явялется шутером ввиде королевской битвы есть сюжет. Основные черты сюжета были в сезоне про шпионов с этого сезона появисля один персонаж которого зовут Мидас. Мидас это агент который набл.дал за островом и вобще что происходит в мире фортнайт. у Мидаса было собственное агенство и он собрал туда лучших агентов острова фортнайт. После того как сезон с Мидасом законсился на острове все же осталось его агенство. Позже в других обновлениях стало появлятся много других обществ которые были связанные с сюжетом. Такие как общество семерых и Общество которе появилось в 1 сезоне 5 главы. Но в прошлом сезоне а именно в середине 2 сезоне 5 главы Мидас снова ваернулся на остров но уже со златой и его яхтой. И с его появлением на острове можно было купить его легенданый томмиган а также спросить о сюжете и что будет дальше. Помимо томмигсана мидаса в фортнайте был добавлен его режим Мидас пол это лава также в этом режиме прошел ткрнир на новый скин мидаса. </p>
+                <p class="plot__text"> Да как не странно но в игре фортнайт которая явялется шутером ввиде королевской битвы есть сюжет. Основные черты сюжета были в сезоне про шпионов с этого сезона появисля один персонаж которого зовут Мидас. Мидас это агент который наблюдал за островом и вобще что происходит в мире фортнайт. у Мидаса было собственное агенство и он собрал туда лучших агентов острова фортнайт. После того как сезон с Мидасом законсился на острове все же осталось его агенство. Позже в других обновлениях стало появлятся много других обществ которые были связанные с сюжетом. Такие как общество семерых и Общество которе появилось в 1 сезоне 5 главы. Но в прошлом сезоне а именно в середине 2 сезоне 5 главы Мидас снова вернулся на остров но уже со златой и его яхтой. И с его появлением на острове можно было купить его легенданый томмиган а также спросить о сюжете и что будет дальше. Помимо томмигсана мидаса в фортнайте был добавлен его режим Мидас пол это лава также в этом режиме прошел ткрнир на новый скин мидаса. </p>
             </div>
         </div>
     </section>
+
+    <!-- <hr class="nigga"> -->
 
     <section class="continue">
         <div class="container">
@@ -142,35 +157,43 @@
         </div>
     </section>
 
+    <!-- <hr class="nigga"> -->
     <section class="top">
         <div class="container">
             <div class="top__wrapper">
-                <div class="marvel__title">Топ-8 Скинов <br> В Фортнатйе</div>
+                <div class="marvel__title">Топ-5 Скинов <br> В Фортнатйе</div>
                 <div class="top__box">
                    <div class= " skin__box raider">
-                    <p class="plot__text">1.  Рейдер-Изгой (Renegade-Raider) </p> <img class="top__images" src="https://fortnitefun.ru/wp-content/uploads/2018/09/Renegade-Raider.png" alt="">
+                    <p class="plot__text">1.  Рейдер-Изгой (Renegade-Raider) </p> <img data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" class="top__images" src="https://fortnitefun.ru/wp-content/uploads/2018/09/Renegade-Raider.png" alt="">
                    </div>
 
                    <div class=" skin__box midas">
-                    <p class="plot__text">2. Мидас (Midas) </p>   <img src="https://fortnitefun.ru/wp-content/uploads/2021/10/midsummermidas-img.png" alt="" class="top__images">
+                    <p class="plot__text">2. Мидас (Midas) </p>   <img data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" src="https://fortnitefun.ru/wp-content/uploads/2021/10/midsummermidas-img.png" alt="" class="top__images">
                    </div>
 
                    <div class=" skin__box omega">
-                    <p class="plot__text"> 3. Омега (Omega) <img src="https://fortnitefun.ru/wp-content/uploads/2018/09/Omega.png" alt="" class="top__images"></p>
+                    <p class="plot__text"> 3. Омега (Omega) <img data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" src="https://fortnitefun.ru/wp-content/uploads/2018/09/Omega.png" alt="" class="top__images"></p>
                    </div>
 
                    <div class=" skin__box deadpool">
-                    <p class="plot__text"> 4.Дэдпул (Deadpool)  <img class="top__images" src="https://fortnitefun.ru/wp-content/uploads/2021/10/deadpool-img.png" alt=""></p>
+                    <p class="plot__text"> 4.Дэдпул (Deadpool)  <img data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" class="top__images" src="https://fortnitefun.ru/wp-content/uploads/2021/10/deadpool-img.png" alt=""></p>
                    </div>
 
                    <div class=" skin__box travisscott">
-                    <p class="plot__text">5. Трэвис Скотт (Travis Scott) <img class="top__images" src="https://fortnitefun.ru/wp-content/uploads/2021/10/travisscott-img.png" alt=""></p>
+                    <p class="plot__text">5. Трэвис Скотт (Travis Scott) <img data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" class="top__images" src="https://fortnitefun.ru/wp-content/uploads/2021/10/travisscott-img.png" alt=""></p>
                    </div>
                     
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- <hr class="nigga"> -->
 
     <section class="contacts">
         <div class="container">
@@ -181,7 +204,7 @@
                 </div>
                 
                 <div class="img__contacts__box">
-                    <img class="fortnite__logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png" alt="">
+                    <img  class="fortnite__logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png" alt="">
                 </div>
             </div>
         </div>
@@ -191,5 +214,8 @@
 
 
     <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
